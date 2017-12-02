@@ -1,5 +1,5 @@
 <ul class="layui-nav layui-layout-left" lay-filter="top-menu">
-    <li class="layui-nav-item" data-left="left-menu0"><a href="javascript:;">控制台<span class="layui-badge layui-bg-gray">1</span></a></li>
+    <li class="layui-nav-item" data-left="left-menu0"><a href="javascript:;">菜单管理<span class="layui-badge layui-bg-gray">1</span></a></li>
     <li class="layui-nav-item" data-left="left-menu1"><a href="javascript:;">系统设置</a></li>
     <li class="layui-nav-item" data-left="left-menu2"><a href="javascript:;">用户</a></li>
     <li class="layui-nav-item">

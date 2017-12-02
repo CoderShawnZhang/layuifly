@@ -1,6 +1,6 @@
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo">Yii Framework 2.0 权威指南 </div>
+        <div class="layui-logo">码农社区</div>
         <!-- 头部区域（可配合layui已有的水平导航） -->
         <?= $this->render('index-top-left.php');?>
         <?= $this->render('index-top-right.php');?>
@@ -21,6 +21,6 @@
 
     <div class="layui-footer" style="text-align: center;">
         <!-- 底部固定区域 -->
-        © Yii Framework 2.0 权威指南 - 实操管理系统
+        © Yii Framework 2.0 权威指南 - 码农社区
     </div>
 </div>

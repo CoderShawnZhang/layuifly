@@ -23,6 +23,7 @@ echo "<script>var str='$assetPath';</script>";
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+    <link rel="Shortcut Icon" href="/favicon.ico">
     <?php $this->head() ?>
 </head>
 <body>
