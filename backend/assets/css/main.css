@@ -1,0 +1,94 @@
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    min-width: 320px;
+    position: absolute;
+}
+.iframe-body-top{
+    top:60px;
+}
+.iframe-content-top{
+    margin: 0;
+    height: 39px;
+}
+
+.layui-side-scroll ul{display: none;}
+.layui-side-scroll ul:first-child{display: block}
+
+
+/*页面操作*/
+.op-closeBox{
+    position: absolute;
+    right: 0;
+    height: 39px;
+    top:3px;
+    background: white;
+    padding: 0;
+    z-index: 1;
+    margin-right: 10px;
+}
+.op-closeBox .layui-nav-item{  line-height: 40px;  }
+.op-closeBox .layui-nav-item a{  color: black;  }
+.op-closeBox:hover{  background: white;  }
+.op-closeBox .layui-nav-item a:hover{  color: black;  }
+.op-closeBox dl{  top:40px;  }
+.op-refresh{
+    position: absolute;
+    right: 119px;
+    border-left: 1px solid #e2e2e2;
+    height: 39px;
+    top:3px;
+    text-align: center;
+    line-height: 40px;
+    width: 70px;
+    background: #5EB95E;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.op-refresh a{
+    color: white;
+}
+.op-refresh i{
+    margin-right: 5px;
+}
+/*导航与图标样式*/
+/*.layui-tab-title li i{*/
+/*margin-right: 5px;*/
+/*}*/
+.layui-tab-title .layui-this{
+    background: #009688;
+    color: white;
+}
+.layui-tab-title{
+    height: 39px;
+    border-top: 3px solid #009688;
+    border-bottom: 1px solid #009688;
+}
+
+.layui-tab-title li cite{
+    font-style: normal;
+    padding-left: 5px;
+}
+
+.layui-nav-tree li i{
+    margin-right: 5px;
+}
+
+.layui-tab-title .layui-this:after{
+    border:0;
+}
+
+.op-closeBox .layui-nav-more{
+    border-color: #009688 transparent transparent;
+    top: 17px;
+}
+/*去除浏览器文本框自动添加黄色背景*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    border: 1px solid #CCC!important;
+}
+.layui-table-cell .layui-form-checkbox[lay-skin=primary]{
+    top: 5px;
+}

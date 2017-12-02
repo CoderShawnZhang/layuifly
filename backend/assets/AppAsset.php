@@ -9,15 +9,23 @@ use yii\web\AssetBundle;
  */
 class AppAsset extends AssetBundle
 {
-    public $basePath = '@webroot';
-    public $baseUrl = '@web';
+    public $sourcePath = '@backend/assets';
+
     public $css = [
-        'css/site.css',
+        'layui/css/layui.css',
+        'css/main.css',
     ];
     public $js = [
+        'layui/layui.js',
+        'js/tabExtend.js',
+        'js/nav.js',
+        'js/main.js'
     ];
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+
+    ];
+
+    public $jsOptions = [
+        'position' => \yii\web\View::POS_HEAD,   // 这是设置所有js放置的位置
     ];
 }

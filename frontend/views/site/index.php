@@ -1,17 +1,4 @@
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>基于 layui 的极简社区页面模版</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="fly,layui,前端社区">
-    <meta name="description" content="Fly社区是模块化前端UI框架Layui的官网社区，致力于为web开发提供强劲动力">
-
-</head>
-<body>
-
+<?php $this->title = '基于 layui 的极简社区页面模版';?>
 <div class="fly-header layui-bg-black">
     <div class="layui-container">
         <a class="fly-logo" href="/">
@@ -26,6 +13,9 @@
             </li>
             <li class="layui-nav-item">
                 <a href="http://www.layui.com/" target="_blank"><i class="iconfont icon-ui"></i>框架</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="http://www.layui.com/" target="_blank"><i class="iconfont icon-ui"></i>测试</a>
             </li>
         </ul>
 
@@ -108,7 +98,7 @@
                 <ul class="fly-list">
                     <li>
                         <a href="user/home.html" class="fly-avatar">
-                            <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                            <img src="http://cdn.layui.com/avatar/336.jpg?t=1493709104721" alt="贤心">
                         </a>
                         <h2>
                             <a class="layui-badge">动态</a>
@@ -137,7 +127,7 @@
                     </li>
                     <li>
                         <a href="user/home.html" class="fly-avatar">
-                            <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                            <img src="http://cdn.layui.com/avatar/336.jpg?t=1493709104721" alt="贤心">
                         </a>
                         <h2>
                             <a class="layui-badge">公告</a>
@@ -168,7 +158,7 @@
                     </li>
                     <li>
                         <a href="user/home.html" class="fly-avatar">
-                            <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                            <img src="http://cdn.layui.com/avatar/336.jpg?t=1493709104721" alt="贤心">
                         </a>
                         <h2>
                             <a class="layui-badge">公告</a>
@@ -199,7 +189,7 @@
                     </li>
                     <li>
                         <a href="user/home.html" class="fly-avatar">
-                            <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                            <img src="http://cdn.layui.com/avatar/336.jpg?t=1493709104721" alt="贤心">
                         </a>
                         <h2>
                             <a class="layui-badge">公告</a>
@@ -790,7 +780,6 @@
     </p>
 </div>
 
-
 <script>
     layui.cache.page = '';
     layui.cache.user = {
@@ -807,7 +796,3 @@
         fly: 'index'
     }).use('fly');
 </script>
-
-
-</body>
-</html>
